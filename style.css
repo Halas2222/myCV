@@ -30,19 +30,23 @@ header {
     background-size: cover;
     opacity: .7;
     position: relative;
+    z-index: 1;
    
 } 
 nav {
     position: fixed;
     z-index: 2;
   
+} 
+
+nav.dissapear {
+    display: none;
 }
 
 ul {
     position: absolute;
    list-style: none;
-   opacity: .7;
-   background-color:#ddd;
+   background-color:rgba(228, 227, 206, 0.6);
    width: 90vw;
    height: 15vh;
 }
@@ -65,23 +69,44 @@ a {
 a:hover {
     color:yellow;
 }
-
-
-
+div .hamburger {
+    position: fixed;
+    z-index: 2;
+}
 
 .fa-bars {
     position: fixed;
     top: 30px;
     right: 50px;
     color:#fff ;
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
-    transition: .4s;
-    z-index: 4;
+    
+   
+
 }
-.fa-bars:hover {
+.fa-times {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    color:#fff ;
+    font-size: 50px;
+    cursor: pointer;
+    
+} 
+
+.fas {
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
+
+/* .fa-bars:hover {
     font-size: 60px;  
-}
+} */
 
 h1.name {
     position: absolute;
@@ -172,7 +197,7 @@ section {
     border-top: 150px solid #555;
     border-left: 50vw solid transparent;
     border-right: 50vw solid transparent;
-   
+   z-index: 0;
  
 }
 
