@@ -298,6 +298,168 @@ h1.skills {
     top: 1050px;
     width: 100vw;
     height: 1000px;
-    background-color: burlywood;
+    
 }
 
+
+.fa-html5 {
+    position: absolute;
+    font-size: 200px;
+    top: 50px;
+    left: 150px;
+    color: #FF6600;
+}
+
+.fa-css3-alt {
+    position: absolute;
+    font-size: 200px;
+    top: 50px;
+    left:750px ;
+    color: #0066CC;
+
+}
+
+.fa-js {
+    position: absolute;
+    font-size: 200px;
+    top: 400px;
+    left: 150px;
+    color: #FFFF00;
+
+}
+
+.fa-git-square {
+    position: absolute;
+    font-size: 200px;
+    top: 400px;
+    left: 750px;
+    color: #CC3300;
+}
+
+.fa-node {
+    position: absolute;
+    font-size: 200px;
+    top: 750px;
+    left: 150px;
+    color: #00CC66;
+}
+
+.fa-react {
+    position: absolute;
+    font-size: 200px;
+    top: 750px;
+    left: 750px;
+    color: #00CCCC;
+}
+
+.skill {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.htmlOne {
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    background-color:#FF6600 ;
+}
+
+.htmlTwo {
+    position: absolute;
+    top: 130px;
+    left:410px ;
+    background-color:#FF6600 ;
+}
+
+.htmlThree {
+    position: absolute;
+    top: 130px;
+    left:470px ;
+    background-color:#FF6600 ;
+    
+}
+ 
+.htmlFour {
+    position: absolute;
+    top: 130px;
+    left:530px ;
+    background-color:#FF6600 ;
+   
+}
+
+.htmlFive {
+    position: absolute;
+    top: 130px;
+    left:590px ;
+}
+
+.cssOne {
+    position: absolute;
+    top: 130px;
+    left:950px ;
+    background-color:#0066CC ;
+}
+
+.cssTwo {
+    position: absolute;
+    top: 130px;
+    left:1010px ;
+    background-color:#0066CC ;
+}
+ 
+.cssThree {
+    position: absolute;
+    top: 130px;
+    left:1070px ;
+    background-color:#0066CC ;
+}
+
+.cssFour {
+    position: absolute;
+    top: 130px;
+    left:1130px ;
+    background-color:#0066CC ;
+}
+
+.cssFive {
+    position: absolute;
+    top: 130px;
+    left:1190px ;
+    
+}
+
+.jsOne {
+    position: absolute;
+    top:500px;
+    left:350px ;
+    background-color:  #FFFF00;
+}
+
+.jsTwo {
+    position: absolute;
+    top: 500px;
+    left:410px ;
+    background-color: #FFFF00;
+}
+
+.jsThree {
+    position: absolute;
+    top: 500px;
+    left:470px ;
+    background-color: #FFFF00;
+}
+
+.jsFour {
+    position: absolute;
+    top: 500px;
+    left:530px ;
+}
+
+.jsFive {
+    position: absolute;
+    top: 500px;
+    left:590px ;
+   
+}

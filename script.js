@@ -35,4 +35,3 @@ const clickBurger = function() {
 }
 
 burger.addEventListener("click", clickBurger);
-setTimeout(clickBurger, 4000);
