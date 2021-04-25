@@ -36,11 +36,13 @@ header {
 nav {
     position: fixed;
     z-index: 2;
+   
   
 } 
 
 nav.dissapear {
     display: none;
+    transition: .7s;
 }
 
 ul {
@@ -59,7 +61,7 @@ li {
 a {
     font-size: 30px;
     text-decoration: none;
-    padding: 30px;
+    padding: 36px;
     line-height: 15vh;
     margin-left: 100px;
     text-transform: uppercase;
@@ -68,6 +70,8 @@ a {
 }
 a:hover {
     color:yellow;
+    background-color: black;
+    transition: .8s;
 }
 div .hamburger {
     position: fixed;
@@ -93,15 +97,16 @@ div .hamburger {
     font-size: 50px;
     cursor: pointer;
     
+    
 } 
 
 .fas {
     display: none;
 }
 
-
 .show {
     display: block;
+    
 }
 
 /* .fa-bars:hover {
@@ -179,7 +184,7 @@ section {
     
 }
 
-.me {
+h1.me {
     position: absolute;
     text-align: center;
     padding: 50px 0;
@@ -260,11 +265,39 @@ section {
     opacity: 1;
 }
 
-/* section img.photo {
-    transform: translateX(-100vw);
+main {
+    position: relative;
 }
 
-section img.photo.active {
-    transform: translateX(-100vw);
-} */
+.triangleTwo {
+    position: absolute;
+    top: 850px;
+    left: 0;
+    border-top: 150px solid #555;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+   z-index: 0;
+}
+
+
+
+h1.skills {
+    position: absolute;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+    color:#bbb;
+    z-index: 1;
+    top: 830px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ikonSkills {
+    position: relative;
+    top: 1050px;
+    width: 100vw;
+    height: 1000px;
+    background-color: burlywood;
+}
 
