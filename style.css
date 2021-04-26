@@ -363,21 +363,25 @@ h1.skills {
     position: absolute;
     top: 130px;
     left: 350px;
-    background-color:#FF6600 ;
+    animation: aktiveHtmlOne 6s linear infinite;
+    animation-fill-mode: forwards;
+    
 }
 
 .htmlTwo {
     position: absolute;
     top: 130px;
     left:410px ;
-    background-color:#FF6600 ;
+    animation: aktiveHtmlTwo 6s linear infinite;
+    animation-fill-mode: forwards;
 }
 
 .htmlThree {
     position: absolute;
     top: 130px;
     left:470px ;
-    background-color:#FF6600 ;
+    animation: aktiveHtmlThree 6s linear infinite ; 
+    animation-fill-mode: forwards;
     
 }
  
@@ -385,7 +389,8 @@ h1.skills {
     position: absolute;
     top: 130px;
     left:530px ;
-    background-color:#FF6600 ;
+    animation: aktiveHtmlFour 6s linear infinite ;
+    animation-fill-mode: forwards; 
    
 }
 
@@ -399,28 +404,36 @@ h1.skills {
     position: absolute;
     top: 130px;
     left:950px ;
-    background-color:#0066CC ;
+    animation: aktiveCssOne 6s linear infinite ;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
 }
 
 .cssTwo {
     position: absolute;
     top: 130px;
     left:1010px ;
-    background-color:#0066CC ;
+    animation: aktiveCssTwo 6s linear infinite ;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
 }
  
 .cssThree {
     position: absolute;
     top: 130px;
     left:1070px ;
-    background-color:#0066CC ;
+    animation: aktiveCssThree 6s linear infinite ;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
 }
 
 .cssFour {
     position: absolute;
     top: 130px;
     left:1130px ;
-    background-color:#0066CC ;
+    animation: aktiveCssFour 6s linear infinite ;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
 }
 
 .cssFive {
@@ -434,21 +447,28 @@ h1.skills {
     position: absolute;
     top:500px;
     left:350px ;
-    background-color:  #FFFF00;
+    animation: aktiveJsOne 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
 }
 
 .jsTwo {
     position: absolute;
     top: 500px;
     left:410px ;
-    background-color: #FFFF00;
+    animation: aktiveJsTwo 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
 }
 
 .jsThree {
     position: absolute;
     top: 500px;
     left:470px ;
-    background-color: #FFFF00;
+    animation: aktiveJsThree 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+   
 }
 
 .jsFour {
@@ -462,4 +482,428 @@ h1.skills {
     top: 500px;
     left:590px ;
    
+}
+
+.gitOne {
+    position: absolute;
+    top: 500px;
+    left:950px ;
+    animation: aktiveGitOne 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+    
+}
+
+.gitTwo {
+    position: absolute;
+    top: 500px;
+    left:1010px ;
+    animation: aktiveGitTwo 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+}
+
+.gitThree {
+    position: absolute;
+    top: 500px;
+    left:1070px ;
+}
+
+.gitFour {
+    position: absolute;
+    top: 500px;
+    left:1130px ;
+}
+
+.gitFive {
+    position: absolute;
+    top: 500px;
+    left:1190px ;
+}
+
+.nodeOne {
+    position: absolute;
+    top: 870px;
+    left:350px ;
+    animation: aktiveNodeOne 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 24s;
+    
+}
+
+.nodeTwo {
+    position: absolute;
+    top: 870px;
+    left:410px ;
+    animation: aktiveNodeTwo 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 24s;
+}
+
+.nodeThree {
+    position: absolute;
+    top: 870px;
+    left:470px ;
+}
+
+.nodeFour {
+    position: absolute;
+    top: 870px;
+    left:530px ;
+}
+
+.nodeFive {
+    position: absolute;
+    top: 870px;
+    left:590px ;
+}
+
+.reactOne {
+    position: absolute;
+    top: 870px;
+    left:950px ;
+    animation: aktiveReactOne 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 30s;
+    
+} 
+
+.reactTwo {
+    position: absolute;
+    top: 870px;
+    left:1010px ;
+    animation: aktiveReactTwo 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 30s;
+}
+
+.reactThree {
+    position: absolute;
+    top: 870px;
+    left:1070px ;
+}
+
+.reactFour {
+    position: absolute;
+    top: 870px;
+    left:1130px ;
+}
+
+.reactFive {
+    position: absolute;
+    top: 870px;
+    left:1190px ;
+}
+
+@keyframes aktiveHtmlOne {
+    0% {
+        background-color:#333 ;
+    }
+    10% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #b9632a;
+    }
+    90% {
+        background-color: #FF6600;
+    }
+
+    100% {
+        background-color: #FF6600;
+    }
+}
+
+@keyframes aktiveHtmlTwo {
+    0% {
+        background-color:#333 ;
+    }
+    25% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #b9632a;
+    }
+    90% {
+        background-color: #FF6600;
+    }
+
+    100% {
+        background-color: #FF6600;
+    }
+}
+
+@keyframes aktiveHtmlThree {
+    0% {
+        background-color:#333 ;
+    }
+    40% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #b9632a;
+    }
+    90% {
+        background-color: #FF6600;
+    }
+
+    100% {
+        background-color: #FF6600;
+    }
+}
+
+@keyframes aktiveHtmlFour {
+    0% {
+        background-color:#333 ;
+    }
+    55% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #b9632a;
+    }
+    90% {
+        background-color: #FF6600;
+    }
+
+    100% {
+        background-color: #FF6600;
+    }
+}
+
+@keyframes aktiveCssOne {
+    0% {
+        background-color:#333 ;
+    }
+    10% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #4d86c0;
+    }
+    90% {
+        background-color: #0066CC;
+    }
+
+    100% {
+        background-color: #0066CC;
+    }
+}
+@keyframes aktiveCssTwo {
+    0% {
+        background-color:#333 ;
+    }
+    25% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #4d86c0;
+    }
+    90% {
+        background-color: #0066CC;
+    }
+
+    100% {
+        background-color: #0066CC;
+    }
+}
+@keyframes aktiveCssThree {
+    0% {
+        background-color:#333 ;
+    }
+    40% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #4d86c0;
+    }
+    90% {
+        background-color: #0066CC;
+    }
+
+    100% {
+        background-color: #0066CC;
+    }
+}
+@keyframes aktiveCssFour {
+    0% {
+        background-color:#333 ;
+    }
+    55% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #4d86c0;
+    }
+    90% {
+        background-color: #0066CC;
+    }
+
+    100% {
+        background-color: #0066CC;
+    }
+}
+
+@keyframes aktiveJsOne {
+    0% {
+        background-color:#333 ;
+    }
+    10% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #ffff6e;
+    }
+    90% {
+        background-color: #FFFF00;
+    }
+
+    100% {
+        background-color: #FFFF00;
+    }
+}
+@keyframes aktiveJsTwo {
+    0% {
+        background-color:#333 ;
+    }
+    25% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #ffff6e;
+    }
+    90% {
+        background-color: #FFFF00;
+    }
+
+    100% {
+        background-color: #FFFF00;
+    }
+}
+@keyframes aktiveJsThree {
+    0% {
+        background-color:#333 ;
+    }
+    40% {
+        background-color: #333;
+    }
+    60% {
+        background-color: #ffff6e;
+    }
+    90% {
+        background-color: #FFFF00;
+    }
+
+    100% {
+        background-color: #FFFF00;
+    }
+}
+@keyframes aktiveGitOne {
+    0% {
+        background-color:#333 ;
+    }
+    10% {
+        background-color: #333;
+    }
+    60% {
+        background-color:  #e0582b;
+    }
+    90% {
+        background-color:  #CC3300;
+    }
+
+    100% {
+        background-color: #CC3300;
+    }
+}
+@keyframes aktiveGitTwo {
+    0% {
+        background-color:#333 ;
+    }
+    25% {
+        background-color: #333;
+    }
+    60% {
+        background-color:  #e0582b;
+    }
+    90% {
+        background-color:  #CC3300;
+    }
+
+    100% {
+        background-color: #CC3300;
+    }
+}
+@keyframes aktiveNodeOne {
+    0% {
+        background-color:#333 ;
+    }
+    10% {
+        background-color: #333;
+    }
+    60% {
+        background-color:   #4cdd95;
+    }
+    90% {
+        background-color:   #00CC66;
+    }
+
+    100% {
+        background-color:  #00CC66;
+    }
+}
+@keyframes aktiveNodeTwo {
+    0% {
+        background-color:#333 ;
+    }
+    25% {
+        background-color: #333;
+    }
+    60% {
+        background-color:   #4cdd95;
+    }
+    90% {
+        background-color:   #00CC66;
+    }
+
+    100% {
+        background-color:  #00CC66;
+    }
+}
+@keyframes aktiveReactOne {
+    0% {
+        background-color:#333 ;
+    }
+    10% {
+        background-color: #333;
+    }
+    60% {
+        background-color:    #3becec;
+    }
+    90% {
+        background-color:    #00CCCC;
+    }
+
+    100% {
+        background-color:   #00CCCC;
+    }
+}
+@keyframes aktiveReactTwo {
+    0% {
+        background-color:#333 ;
+    }
+    25% {
+        background-color: #333;
+    }
+    60% {
+        background-color:    #3becec;
+    }
+    90% {
+        background-color:    #00CCCC;
+    }
+
+    100% {
+        background-color:   #00CCCC;
+    }
+}
 }
